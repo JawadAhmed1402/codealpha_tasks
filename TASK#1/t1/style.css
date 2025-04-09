@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: rgb(241, 47, 47);
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+main {
+  text-align: center;
+  /* padding-top: 10%; */
+  position: absolute;
+  height: 75%;
+  width: 100%;
+  top: 25%;
+}
+main h1 {
+  color: white;
+  font-size: 5vw;
+  margin-bottom: 2%;
+}
+main p {
+  color: white;
+  font-size: 1.5vw;
+}
+main input {
+  margin-top: 1%;
+  padding: 0.5% 5% 0.5% 5%;
+  font-size: 1vw;
+  border-radius: 6%;
+  cursor: text;
+  border: none;
+}
+main input:hover {
+  transform: scale(1.05);
+}
+main #submtBtn {
+  margin-top: 1%;
+  font-size: 1.1vw;
+  color: black;
+  background-color: white;
+  /* width: 5%; */
+  margin-left: 47%;
+  margin-right: 47%;
+  border-radius: 1pc;
+  cursor: pointer;
+}
+main #submtBtn:hover {
+  transform: scale(1.05);
+}
+main #result {
+  margin-top: 1%;
+  font-style: 1.5vw;
+}
